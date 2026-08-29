@@ -27,3 +27,7 @@ Here you will find how to install and configure Git before use it. Do you have a
 ## Chapter 3: Git basic commands and operations
 
 With pratical and real examples, you will learn, from this Chapter, how to use git commands on different kinds of situations and challenges that you will could face on in your daly tasks.
+
+## Final words
+
+I hope that my research and hard work could make a difference to you. If you are already confortable with git, and belives that this practical tutorial could help someonelse fell free to send the repo, copy and reproduce.
