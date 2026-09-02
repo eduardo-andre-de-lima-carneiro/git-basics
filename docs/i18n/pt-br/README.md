@@ -1,41 +1,84 @@
 # Git Básico
 
-> Uma introdução prática e guiada ao Git para pessoas que estão começando do zero e querem chegar a um fluxo de trabalho diário seguro.
+> Aprenda Git entendendo o que ele é, praticando o que ele faz e ganhando confiança um pequeno passo de cada vez.
 
-Comece pelo [menu da documentação](menu.md), que reúne todos os capítulos, seções, exercícios e referências desta versão em português.
+Git Básico é um curso prático e guiado para quem está começando a usar Git, está migrando do Subversion ou procura um modelo mental mais claro para o controle de versão no dia a dia.
 
-Este repositório foi criado para ajudar quem precisa entender os principais conceitos e comandos do sistema de controle de versão chamado Git. Você pode navegar pelas páginas conforme seu interesse. A documentação foi cuidadosamente dividida em capítulos e seções. No início de cada capítulo, você encontrará uma descrição do que será abordado em suas seções.
+[Comece o curso](menu.md) | [Trilha de aprendizagem](learning-path.md) | [Escolha seu idioma](#idiomas) | [Contribua](../../../CONTRIBUTING.md)
 
-Você também encontrará muitos exemplos e exercícios práticos em cada seção. Espero que este material ajude você a entender um pouco mais sobre essa ferramenta tão importante.
+## Por que este curso existe
 
-## Introdução
+A documentação do Git pode ser tecnicamente precisa e ainda assim parecer difícil de começar. Este projeto transforma as ideias essenciais em um caminho guiado: explicações curtas, comandos reais, resultados visíveis e exercícios que podem ser praticados em um repositório temporário.
 
-Eu trabalhava como DevSecOps em uma empresa e era responsável por ajudar as equipes a melhorar seus conhecimentos em Cloud, DevOps e Segurança. Naquele período, uma das equipes estava começando a migrar seus repositórios de código do Subversion para o Git. Fiquei surpreso ao perceber que algumas pessoas nunca tinham trabalhado com Git e não tinham nenhum conhecimento sobre ele. Enviei a documentação oficial e alguns dos sites mais usados por profissionais de TI, esperando que aprendessem com a leitura.
+O objetivo não é decorar uma lista de comandos. É entender o estado do seu projeto, fazer mudanças intencionais e se recuperar com tranquilidade quando algo der errado.
 
-Depois de alguns dias, uma pessoa da equipe me disse que a documentação era complexa e que não sabia o que fazer para acelerar o entendimento e começar a usá-la. Foi então que percebi uma oportunidade de criar um treinamento prático e guiado, ajudando outras pessoas com o mesmo problema.
+## O que você vai aprender
 
-Acredito que, com um guia prático, podemos compreender e aprender melhor qualquer assunto, inclusive aqueles com termos e conceitos longos e complexos.
+- Como o controle de versão protege e explica o histórico de um projeto.
+- Como a árvore de trabalho, a área de preparação, os commits, as branches e os remotos do Git se relacionam.
+- Como instalar e configurar o Git para projetos pessoais ou de equipe.
+- Como inspecionar as mudanças antes de criar um commit.
+- Como criar branches, sincronizar com repositórios remotos e colaborar com segurança.
+- Como escolher o comando de recuperação adequado para uma mudança indesejada.
 
-Você também pode ajudar nessa jornada. Seus comentários, críticas e sugestões serão bem-vindos e me darão mais força para manter e atualizar este repositório.
+## Mapa do curso
 
-Vamos colaborar para tornar este material uma documentação gratuita e melhor para ajudar outras pessoas.
+| Capítulo | Foco | Você vai praticar |
+| --- | --- | --- |
+| [1. Conceitos básicos](chapters/01-basic-concepts/README.md) | As ideias por trás do controle de versão e do Git | Pensar em snapshots, histórico e estados do projeto |
+| [2. Instalação e configuração](chapters/02-installation-configuration/README.md) | Preparar o Git para uso | Verificar a instalação, a identidade, os padrões e os repositórios |
+| [3. Comandos e operações](chapters/03-commands-operations/README.md) | Construir um fluxo de trabalho diário confiável | Commits, branches, remotos, merges, exercícios e recuperação |
+| [4. Integração com plataformas](chapters/04-platform-integration/README.md) | Conectar o Git a plataformas de colaboração hospedadas | Pull requests, merge requests, permissões, automação e entregas seguras |
 
-## Capítulo 1: Conceitos básicos
+## Uma primeira prática rápida
 
-Este capítulo apresenta os sistemas de controle de versão e explica o que eles resolvem e por que você deve se importar com isso.
+Depois de instalar o Git, crie um repositório descartável para praticar:
 
-## Capítulo 2: Instalação e configuração básica do Git
+```bash
+mkdir git-practice
+cd git-practice
+git init
+printf "My first Git file\n" > notes.txt
+git add notes.txt
+git commit -m "Add first practice file"
+git log --oneline
+```
 
-Aqui você aprenderá a instalar e configurar o Git antes de usá-lo. Você tem um repositório local ou remoto? Sem problema: verá, em poucos passos simples, como conectá-los e usá-los.
+Você acabou de criar um repositório, preparar uma mudança, registrar um commit e inspecionar seu histórico. O Capítulo 1 explica o que aconteceu em cada etapa.
 
-## Capítulo 3: Comandos e operações básicas do Git
+## Como usar a documentação
 
-Com exemplos práticos e reais, você aprenderá a usar comandos do Git em diferentes situações e desafios que podem surgir nas tarefas do dia a dia.
+1. Comece pelo [menu da documentação](menu.md).
+2. Leia o Capítulo 1 antes de mergulhar na memorização de comandos.
+3. Siga as etapas de configuração do Capítulo 2.
+4. Pratique o Capítulo 3 em um repositório descartável.
+5. Explore o Capítulo 4 para conhecer a plataforma usada pela sua equipe.
+6. Consulte o [glossário](glossary.md) sempre que um termo não for familiar.
 
-## Capítulo 4: Integração com plataformas
+Cada lição é um arquivo Markdown independente, conectado por links relativos para que possa ser lida diretamente no GitHub.
 
-Aprenda os fundamentos da integração com plataformas hospedadas e veja como trabalhar com GitHub, GitLab, Azure Repos e Bitbucket no [Capítulo 4](chapters/04-platform-integration/README.md).
+## Idiomas
 
-## Palavras finais
+O curso está disponível em quatro idiomas:
 
-Espero que minha pesquisa e meu trabalho possam fazer diferença para você. Se já está à vontade com o Git e acredita que este tutorial prático pode ajudar outra pessoa, sinta-se à vontade para compartilhar, copiar e reproduzir este repositório.
+- [English](../../../README.md)
+- [Français](../fr/README.md)
+- [Português (Brasil)](README.md)
+- [Español](../es/README.md)
+
+## Valores do projeto
+
+- **Prático:** os exemplos devem levar a algo que o aprendiz possa observar.
+- **Acessível:** explique a ideia antes de apresentar o comando.
+- **Seguro:** use repositórios descartáveis e deixe claras as operações destrutivas.
+- **Aberto:** mantenha a documentação gratuita, reutilizável e fácil de aprimorar.
+
+## Contribuição
+
+Encontrou uma explicação confusa, um exercício faltando ou um link quebrado? Leia o [guia de contribuição](../../../CONTRIBUTING.md) e ajude a tornar melhor a primeira experiência de outra pessoa com Git.
+
+## Origem
+
+Este curso nasceu de uma experiência em DevSecOps, apoiando equipes que estavam migrando do Subversion para o Git. A documentação oficial e os sites de referência eram úteis, mas algumas pessoas precisavam de um caminho mais guiado e prático para entrar no assunto. O Git Básico foi criado para oferecer esse caminho e facilitar o compartilhamento do aprendizado.
+
+O projeto é intencionalmente colaborativo. Comentários, correções, exemplos e traduções são bem-vindos.

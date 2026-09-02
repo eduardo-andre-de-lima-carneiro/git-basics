@@ -1,45 +1,84 @@
 # Git Basics
 
-> Une introduction pratique et guidée à Git, destinée aux personnes qui partent de zéro et souhaitent acquérir un flux de travail quotidien fiable.
+> Apprenez Git en comprenant ce qu'il est, en pratiquant ce qu'il fait et en gagnant en confiance, une petite étape à la fois.
 
-Commencez par le [menu de la documentation](menu.md), qui contient des liens vers chaque chapitre, section, exercice et document de référence de cette version française.
+Git Basics est une formation pratique et guidée pour les personnes qui débutent avec Git, qui viennent de Subversion ou qui cherchent un modèle mental plus clair du contrôle de version au quotidien.
 
-Ce dépôt aide les débutants à comprendre les principaux concepts et commandes du système de contrôle de version appelé Git. La navigation entre les pages peut suivre vos besoins et vos centres d'intérêt. La documentation est organisée en chapitres et en sections; la première section de chaque chapitre présente ce que vous y trouverez.
+[Commencer la formation](menu.md) | [Choisir votre langue](#langues) | [Contribuer](../../../CONTRIBUTING.md)
 
-Chaque section contient également de nombreux exemples et exercices pratiques. J'espère que cette documentation vous aidera à mieux comprendre cet outil puissant.
+## Pourquoi cette formation existe
 
-## Introduction
+La documentation Git peut être techniquement exacte tout en restant difficile à aborder. Ce projet transforme les notions essentielles en un parcours guidé : des explications courtes, de vraies commandes, des résultats visibles et des exercices à pratiquer dans un dépôt temporaire.
 
-J'ai travaillé comme DevSecOps dans une entreprise, où j'aidais les équipes à développer leurs connaissances en matière de cloud, de DevOps et de sécurité. À cette époque, l'une des équipes commençait à migrer son dépôt de code de Subversion vers Git. J'ai été surpris de constater que certains de ses membres n'avaient jamais travaillé avec Git et ne le connaissaient même pas.
+L'objectif n'est pas de mémoriser une liste de commandes. Il est de comprendre l'état de votre projet, d'effectuer des changements intentionnels et de retrouver son calme quand quelque chose ne se passe pas comme prévu.
 
-Je leur ai envoyé la documentation officielle ainsi que plusieurs sites très utilisés par les professionnels de l'informatique, en espérant qu'ils pourraient apprendre en les lisant.
+## Ce que vous apprendrez
 
-Quelques jours plus tard, un membre de l'équipe m'a expliqué que la documentation était complexe et qu'il ne savait pas comment accélérer sa compréhension pour pouvoir utiliser Git rapidement. C'est ce qui m'a fait prendre conscience d'une occasion de créer une formation pratique et guidée, afin d'aider d'autres personnes confrontées aux mêmes difficultés.
+- Comment le contrôle de version protège et explique l'historique d'un projet.
+- Comment s'articulent l'arbre de travail, la zone de préparation, les commits, les branches et les dépôts distants de Git.
+- Comment installer et configurer Git pour des projets personnels ou d'équipe.
+- Comment examiner les changements avant de les valider.
+- Comment créer des branches, synchroniser des dépôts distants et collaborer en toute sécurité.
+- Comment choisir la bonne commande pour récupérer un changement indésirable.
 
-Je crois qu'un guide pratique permet de mieux comprendre et d'apprendre n'importe quel sujet, même lorsque ses termes et ses concepts sont longs et complexes.
+## Parcours de la formation
 
-Vous pouvez également m'aider dans cette démarche. Vos commentaires, critiques et suggestions seront appréciés et me donneront davantage de moyens pour maintenir et mettre à jour ce dépôt.
+| Chapitre | Thème | Vous pratiquerez |
+| --- | --- | --- |
+| [1. Concepts fondamentaux](chapters/01-basic-concepts/README.md) | Les idées à la base du contrôle de version et de Git | Réfléchir en instantanés, en historique et en états du projet |
+| [2. Installation et configuration](chapters/02-installation-configuration/README.md) | Préparer Git à l'emploi | Vérifier l'installation, l'identité, les valeurs par défaut et les dépôts |
+| [3. Commandes et opérations](chapters/03-commands-operations/README.md) | Construire un flux de travail quotidien fiable | Les commits, les branches, les dépôts distants, les fusions, les exercices et la récupération |
+| [4. Intégration aux plateformes](chapters/04-platform-integration/README.md) | Connecter Git aux plateformes de collaboration hébergées | Les pull requests, les merge requests, les permissions, l'automatisation et une livraison sécurisée |
 
-Contribuons ensemble à ce projet pour proposer une documentation libre et plus utile à tous.
+## Un premier exercice rapide
 
-## Chapitre 1 : Concepts fondamentaux
+Une fois Git installé, créez un dépôt temporaire pour vous exercer :
 
-Ce chapitre vous présente les systèmes de contrôle de version et explique les problèmes qu'ils résolvent ainsi que les raisons de vous y intéresser.
+```bash
+mkdir git-practice
+cd git-practice
+git init
+printf "My first Git file\n" > notes.txt
+git add notes.txt
+git commit -m "Add first practice file"
+git log --oneline
+```
 
-## Chapitre 2 : Installation et configuration de Git
+Vous venez de créer un dépôt, de préparer un changement, d'enregistrer un commit et d'examiner son historique. Le chapitre 1 explique ce qui s'est passé à chaque étape.
 
-Vous y apprendrez à installer et à configurer Git avant de l'utiliser. Vous avez un dépôt local ou distant? Aucun problème: quelques étapes simples suffisent pour apprendre à les connecter et à les utiliser.
+## Comment utiliser la documentation
 
-## Chapitre 3 : Commandes et opérations Git fondamentales
+1. Commencez par le [menu de la documentation](menu.md).
+2. Lisez le chapitre 1 avant de vous plonger dans la mémorisation des commandes.
+3. Suivez les étapes de mise en place du chapitre 2.
+4. Parcourez le chapitre 3 dans un dépôt temporaire.
+5. Découvrez dans le chapitre 4 la plateforme utilisée par votre équipe.
+6. Consultez le [glossaire](glossary.md) lorsqu'un terme vous est inconnu.
 
-À l'aide d'exemples pratiques et réalistes, vous apprendrez à utiliser les commandes Git dans les différentes situations et difficultés que vous pourrez rencontrer au quotidien.
+Chaque leçon est un fichier Markdown autonome, relié par des chemins relatifs afin de pouvoir être consultée directement sur GitHub.
 
-## Chapitre 4 : Intégration aux plateformes
+## Langues
 
-Découvrez comment connecter un dépôt Git à GitHub, GitLab, Azure Repos ou Bitbucket, puis encadrer la collaboration, l'automatisation et la sécurité.
+La formation est disponible en quatre langues :
 
-Consultez la [présentation du chapitre 4](chapters/04-platform-integration/README.md) pour accéder aux leçons.
+- [English](../../../README.md)
+- [Français](README.md)
+- [Português (Brasil)](../pt-br/README.md)
+- [Español](../es/README.md)
 
-## Mot de la fin
+## Valeurs du projet
 
-J'espère que mes recherches et mon travail vous seront utiles. Si vous êtes déjà à l'aise avec Git et pensez que ce tutoriel pratique pourrait aider quelqu'un, n'hésitez pas à partager ce dépôt, à le copier et à le reproduire.
+- **Pratique :** les exemples doivent aboutir à quelque chose que l'apprenant peut observer.
+- **Accessible :** expliquer l'idée avant d'introduire la commande.
+- **Sûr :** utiliser des dépôts temporaires et expliciter les opérations destructrices.
+- **Ouvert :** conserver une documentation libre, réutilisable et facile à améliorer.
+
+## Contribuer
+
+Vous avez trouvé une explication confuse, un exercice manquant ou un lien brisé ? Consultez le [guide de contribution](../../../CONTRIBUTING.md) et aidez à rendre la première expérience de Git plus agréable pour les prochains apprenants.
+
+## Origine
+
+Cette formation est née d'une expérience en DevSecOps, au cours de laquelle j'ai accompagné des équipes qui migraient de Subversion vers Git. La documentation officielle et les sites de référence étaient utiles, mais certains apprenants avaient besoin d'un parcours plus guidé et plus pratique pour aborder le sujet. Git Basics a été créé pour leur proposer ce parcours et faciliter le partage de l'apprentissage.
+
+Le projet est volontairement collaboratif. Les retours, corrections, exemples et traductions sont les bienvenus.
