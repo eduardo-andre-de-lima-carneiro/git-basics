@@ -23,12 +23,12 @@ O objetivo não é decorar uma lista de comandos. É entender o estado do seu pr
 
 ## Mapa do curso
 
-| Capítulo | Foco | Você vai praticar |
-| --- | --- | --- |
-| [1. Conceitos básicos](chapters/01-basic-concepts/README.md) | As ideias por trás do controle de versão e do Git | Pensar em snapshots, histórico e estados do projeto |
-| [2. Instalação e configuração](chapters/02-installation-configuration/README.md) | Preparar o Git para uso | Verificar a instalação, a identidade, os padrões e os repositórios |
-| [3. Comandos e operações](chapters/03-commands-operations/README.md) | Construir um fluxo de trabalho diário confiável | Commits, branches, remotos, merges, exercícios e recuperação |
-| [4. Integração com plataformas](chapters/04-platform-integration/README.md) | Conectar o Git a plataformas de colaboração hospedadas | Pull requests, merge requests, permissões, automação e entregas seguras |
+| Capítulo                                                                         | Foco                                                   | Você vai praticar                                                       |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- |
+| [1. Conceitos básicos](chapters/01-basic-concepts/README.md)                     | As ideias por trás do controle de versão e do Git      | Pensar em snapshots, histórico e estados do projeto                     |
+| [2. Instalação e configuração](chapters/02-installation-configuration/README.md) | Preparar o Git para uso                                | Verificar a instalação, a identidade, os padrões e os repositórios      |
+| [3. Comandos e operações](chapters/03-commands-operations/README.md)             | Construir um fluxo de trabalho diário confiável        | Commits, branches, remotos, merges, exercícios e recuperação            |
+| [4. Integração com plataformas](chapters/04-platform-integration/README.md)      | Conectar o Git a plataformas de colaboração hospedadas | Pull requests, merge requests, permissões, automação e entregas seguras |
 
 ## Uma primeira prática rápida
 

@@ -23,12 +23,12 @@ L'objectif n'est pas de mémoriser une liste de commandes. Il est de comprendre 
 
 ## Parcours de la formation
 
-| Chapitre | Thème | Vous pratiquerez |
-| --- | --- | --- |
-| [1. Concepts fondamentaux](chapters/01-basic-concepts/README.md) | Les idées à la base du contrôle de version et de Git | Réfléchir en instantanés, en historique et en états du projet |
-| [2. Installation et configuration](chapters/02-installation-configuration/README.md) | Préparer Git à l'emploi | Vérifier l'installation, l'identité, les valeurs par défaut et les dépôts |
-| [3. Commandes et opérations](chapters/03-commands-operations/README.md) | Construire un flux de travail quotidien fiable | Les commits, les branches, les dépôts distants, les fusions, les exercices et la récupération |
-| [4. Intégration aux plateformes](chapters/04-platform-integration/README.md) | Connecter Git aux plateformes de collaboration hébergées | Les pull requests, les merge requests, les permissions, l'automatisation et une livraison sécurisée |
+| Chapitre                                                                             | Thème                                                    | Vous pratiquerez                                                                                    |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| [1. Concepts fondamentaux](chapters/01-basic-concepts/README.md)                     | Les idées à la base du contrôle de version et de Git     | Réfléchir en instantanés, en historique et en états du projet                                       |
+| [2. Installation et configuration](chapters/02-installation-configuration/README.md) | Préparer Git à l'emploi                                  | Vérifier l'installation, l'identité, les valeurs par défaut et les dépôts                           |
+| [3. Commandes et opérations](chapters/03-commands-operations/README.md)              | Construire un flux de travail quotidien fiable           | Les commits, les branches, les dépôts distants, les fusions, les exercices et la récupération       |
+| [4. Intégration aux plateformes](chapters/04-platform-integration/README.md)         | Connecter Git aux plateformes de collaboration hébergées | Les pull requests, les merge requests, les permissions, l'automatisation et une livraison sécurisée |
 
 ## Un premier exercice rapide
 

@@ -23,12 +23,12 @@ El objetivo no es memorizar una lista de comandos. Es entender el estado del pro
 
 ## Mapa del curso
 
-| Capítulo | Enfoque | Practicarás |
-| --- | --- | --- |
-| [1. Conceptos básicos](chapters/01-basic-concepts/README.md) | Las ideas detrás del control de versiones y Git | Pensar en instantáneas, historial y estados del proyecto |
-| [2. Instalación y configuración](chapters/02-installation-configuration/README.md) | Preparar Git para usarlo | Comprobar la instalación, la identidad, los valores predeterminados y los repositorios |
-| [3. Comandos y operaciones](chapters/03-commands-operations/README.md) | Crear un flujo de trabajo diario confiable | Commits, ramas, remotos, fusiones, ejercicios y recuperación |
-| [4. Integración con plataformas](chapters/04-platform-integration/README.md) | Conectar Git con plataformas de colaboración alojadas | Pull requests, merge requests, permisos, automatización y entregas seguras |
+| Capítulo                                                                           | Enfoque                                               | Practicarás                                                                            |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [1. Conceptos básicos](chapters/01-basic-concepts/README.md)                       | Las ideas detrás del control de versiones y Git       | Pensar en instantáneas, historial y estados del proyecto                               |
+| [2. Instalación y configuración](chapters/02-installation-configuration/README.md) | Preparar Git para usarlo                              | Comprobar la instalación, la identidad, los valores predeterminados y los repositorios |
+| [3. Comandos y operaciones](chapters/03-commands-operations/README.md)             | Crear un flujo de trabajo diario confiable            | Commits, ramas, remotos, fusiones, ejercicios y recuperación                           |
+| [4. Integración con plataformas](chapters/04-platform-integration/README.md)       | Conectar Git con plataformas de colaboración alojadas | Pull requests, merge requests, permisos, automatización y entregas seguras             |
 
 ## Una primera práctica rápida
 
