@@ -1,33 +1,84 @@
 # Git Basics
 
-This repo was created to help those whose may need to understand the main concepts, commands and use the _Version Control System_ called Git. The navigation between those pages and documentation could be done by you by your interest. I carefully prepare this documentation dividing it by chapter and sections. Bellow you will find the chapters descriptions and on the first section on each chapter you could find the description of what you should find on each section from the chapter.
+> Learn Git by understanding what it is, practicing what it does, and building confidence one small step at a time.
 
-You also should find a lot of examples and practical exercises on each section from this doccumentation. I hope that i could help you to understand a little bit more from this amazing tool.
+Git Basics is a practical, guided course for people who are new to Git, moving from Subversion, or looking for a clearer mental model of everyday version control.
 
-## Introduction
+[Start the course](menu.md) | [Choose your language](#languages) | [Contribute](CONTRIBUTING.md)
 
-I was a DevSecOps on a company and was responsible to help teams to improve their knowledge from "Cloud, DevOps and Security". At that time one of the teams was in a process to start migrating their code repo from Subversion to Git. I was surprised by the fact that some of thems didn't had worked before with Git or even not have anny knowledge about it. I send them the official documentation and some of the most used sites already used by IT professionals, hopping that they could learn by read.
+## Why this course exists
 
-After some days one team member came to me to tell me that the documentation was complex and he did not know what he shoud do to accelerate the understanding it and to move on quickly to use it. So, this was the fact that "turn on the light" and i saw an opportunity to create a guided pratical trainning, to help others with the same problems.
+Git documentation can be technically accurate and still feel difficult to enter. This project turns the essential ideas into a guided path: short explanations, real commands, visible results, and exercises that can be practiced in a temporary repository.
 
-I believe that with a pratical guide, we could better understand and learn any kind of subjects even those who has long and complex terms and concepts.
+The goal is not to memorize a list of commands. The goal is to understand the state of your project, make intentional changes, and recover calmly when something goes wrong.
 
-You could also help me on this road. Your comments, critics and suggestions, would be apreciate and will provide me with more power to maintain and update this repo.
+## What you will learn
 
-Let's colaborate to this work, and do a better and free documentation to help others.
+- How version control protects and explains the history of a project.
+- How Git's working tree, staging area, commits, branches, and remotes fit together.
+- How to install and configure Git for personal or team projects.
+- How to inspect changes before committing them.
+- How to create branches, synchronize with remotes, and collaborate safely.
+- How to choose the right recovery command for an unwanted change.
 
-## Chapter 1: Basics concepts
+## Course map
 
-This chapter will guide you through the version control systems, explainning what it was and why should you care about it.
+| Chapter                                                                                    | Focus                                            | You will practice                                                           |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------ | --------------------------------------------------------------------------- |
+| [1. Basic concepts](docs/chapters/01-basic-concepts/README.md)                             | The ideas behind version control and Git         | Thinking in snapshots, history, and project states                          |
+| [2. Installation and configuration](docs/chapters/02-installation-configuration/README.md) | Getting Git ready to use                         | Checking the installation, identity, defaults, and repositories             |
+| [3. Commands and operations](docs/chapters/03-commands-operations/README.md)               | Building a dependable daily workflow             | Commits, branches, remotes, merges, exercises, and recovery                 |
+| [4. Platform integration](docs/chapters/04-platform-integration/README.md)                 | Connecting Git to hosted collaboration platforms | Pull requests, merge requests, permissions, automation, and secure delivery |
 
-## Chapter 2: Git basic install and configuration
+## A quick first practice
 
-Here you will find how to install and configure Git before use it. Do you have a local or remote repo? No problem, you will see in a few and simple steps how to connect and use them.
+Once Git is installed, create a disposable practice repository:
 
-## Chapter 3: Git basic commands and operations
+```bash
+mkdir git-practice
+cd git-practice
+git init
+printf "My first Git file\n" > notes.txt
+git add notes.txt
+git commit -m "Add first practice file"
+git log --oneline
+```
 
-With pratical and real examples, you will learn, from this Chapter, how to use git commands on different kinds of situations and challenges that you will could face on in your daly tasks.
+You have just created a repository, prepared a change, recorded a commit, and inspected its history. Chapter 1 explains what happened at each stage.
 
-## Final words
+## How to use the documentation
 
-I hope that my research and hard work could make a difference to you. If you are already confortable with git, and belives that this practical tutorial could help someonelse fell free to send the repo, copy and reproduce.
+1. Begin with the [documentation menu](menu.md).
+2. Read Chapter 1 before diving into command memorization.
+3. Complete the setup steps in Chapter 2.
+4. Work through Chapter 3 in a disposable repository.
+5. Explore Chapter 4 for the platform used by your team.
+6. Use the [glossary](docs/glossary.md) whenever a term is unfamiliar.
+
+Every lesson is a standalone Markdown file, linked with relative paths so it can be read directly on GitHub.
+
+## Languages
+
+The course is available in four languages:
+
+- [English](menu.md)
+- [Français](docs/i18n/fr/README.md)
+- [Português (Brasil)](docs/i18n/pt-br/README.md)
+- [Español](docs/i18n/es/README.md)
+
+## Project values
+
+- **Practical:** examples should lead to something the learner can observe.
+- **Approachable:** explain the idea before introducing the command.
+- **Safe:** use disposable repositories and make destructive operations explicit.
+- **Open:** keep the documentation free, reusable, and easy to improve.
+
+## Contributing
+
+Found a confusing explanation, a missing exercise, or a broken link? Read the [contribution guide](CONTRIBUTING.md) and help make the next learner's first Git experience better.
+
+## Origin
+
+This course grew out of a DevSecOps experience supporting teams that were migrating from Subversion to Git. Official documentation and reference sites were useful, but some learners needed a more guided and practical route into the subject. Git Basics was created to provide that route and to make the learning process easier to share.
+
+The project is intentionally collaborative. Feedback, corrections, examples, and translations are welcome.
