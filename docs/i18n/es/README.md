@@ -29,6 +29,7 @@ El objetivo no es memorizar una lista de comandos. Es entender el estado del pro
 | [2. Instalación y configuración](chapters/02-installation-configuration/README.md) | Preparar Git para usarlo                              | Comprobar la instalación, la identidad, los valores predeterminados y los repositorios |
 | [3. Comandos y operaciones](chapters/03-commands-operations/README.md)             | Crear un flujo de trabajo diario confiable            | Commits, ramas, remotos, fusiones, ejercicios y recuperación                           |
 | [4. Integración con plataformas](chapters/04-platform-integration/README.md)       | Conectar Git con plataformas de colaboración alojadas | Pull requests, merge requests, permisos, automatización y entregas seguras             |
+| [5. Integración con IDE y editores](chapters/05-ide-integration/README.md)         | Usar Git desde editores de código e IDE               | Preparación, diffs, ramas, resolución de conflictos y configuración de herramientas    |
 
 ## Una primera práctica rápida
 
@@ -53,7 +54,8 @@ Acabas de crear un repositorio, preparar un cambio, registrar un commit y revisa
 3. Completa los pasos de configuración del capítulo 2.
 4. Trabaja el capítulo 3 en un repositorio temporal.
 5. Explora el capítulo 4 para conocer la plataforma que usa tu equipo.
-6. Consulta el [glosario](glossary.md) cuando no conozcas un término.
+6. Lee el capítulo 5 para tu editor de código o IDE.
+7. Consulta el [glosario](glossary.md) cuando no conozcas un término.
 
 Cada lección es un archivo Markdown independiente, enlazado mediante rutas relativas para poder leerlo directamente en GitHub.
 
