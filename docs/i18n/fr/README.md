@@ -29,6 +29,7 @@ L'objectif n'est pas de mémoriser une liste de commandes. Il est de comprendre 
 | [2. Installation et configuration](chapters/02-installation-configuration/README.md) | Préparer Git à l'emploi                                  | Vérifier l'installation, l'identité, les valeurs par défaut et les dépôts                           |
 | [3. Commandes et opérations](chapters/03-commands-operations/README.md)              | Construire un flux de travail quotidien fiable           | Les commits, les branches, les dépôts distants, les fusions, les exercices et la récupération       |
 | [4. Intégration aux plateformes](chapters/04-platform-integration/README.md)         | Connecter Git aux plateformes de collaboration hébergées | Les pull requests, les merge requests, les permissions, l'automatisation et une livraison sécurisée |
+| [5. Intégration aux IDE et aux éditeurs](chapters/05-ide-integration/README.md)       | Utiliser Git depuis les éditeurs de code et les IDE      | La préparation, les diffs, les branches, la résolution de conflits et la configuration des outils   |
 
 ## Un premier exercice rapide
 
@@ -53,7 +54,8 @@ Vous venez de créer un dépôt, de préparer un changement, d'enregistrer un co
 3. Suivez les étapes de mise en place du chapitre 2.
 4. Parcourez le chapitre 3 dans un dépôt temporaire.
 5. Découvrez dans le chapitre 4 la plateforme utilisée par votre équipe.
-6. Consultez le [glossaire](glossary.md) lorsqu'un terme vous est inconnu.
+6. Lisez le chapitre 5 pour votre éditeur de code ou votre IDE.
+7. Consultez le [glossaire](glossary.md) lorsqu'un terme vous est inconnu.
 
 Chaque leçon est un fichier Markdown autonome, relié par des chemins relatifs afin de pouvoir être consultée directement sur GitHub.
 
