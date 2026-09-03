@@ -29,6 +29,7 @@ The goal is not to memorize a list of commands. The goal is to understand the st
 | [2. Installation and configuration](docs/chapters/02-installation-configuration/README.md) | Getting Git ready to use                         | Checking the installation, identity, defaults, and repositories             |
 | [3. Commands and operations](docs/chapters/03-commands-operations/README.md)               | Building a dependable daily workflow             | Commits, branches, remotes, merges, exercises, and recovery                 |
 | [4. Platform integration](docs/chapters/04-platform-integration/README.md)                 | Connecting Git to hosted collaboration platforms | Pull requests, merge requests, permissions, automation, and secure delivery |
+| [5. IDE and editor integration](docs/chapters/05-ide-integration/README.md)                | Using Git through code editors and IDEs          | Staging, diffing, branching, conflict resolution, and tool configuration    |
 
 ## A quick first practice
 
@@ -53,7 +54,8 @@ You have just created a repository, prepared a change, recorded a commit, and in
 3. Complete the setup steps in Chapter 2.
 4. Work through Chapter 3 in a disposable repository.
 5. Explore Chapter 4 for the platform used by your team.
-6. Use the [glossary](docs/glossary.md) whenever a term is unfamiliar.
+6. Read Chapter 5 for your code editor or IDE.
+7. Use the [glossary](docs/glossary.md) whenever a term is unfamiliar.
 
 Every lesson is a standalone Markdown file, linked with relative paths so it can be read directly on GitHub.
 

@@ -50,6 +50,18 @@ Use this menu as the entry point. The chapters move from concepts to setup, dail
 - [4.5 Bitbucket and Atlassian](docs/chapters/04-platform-integration/05-bitbucket-atlassian.md)
 - [4.6 Secure integration checklist](docs/chapters/04-platform-integration/06-secure-checklist.md)
 
+## Chapter 5: IDE and Editor Integration
+
+- [Chapter 5 overview](docs/chapters/05-ide-integration/README.md)
+- [5.1 IDE integration fundamentals](docs/chapters/05-ide-integration/01-ide-integration-fundamentals.md)
+- [5.2 Visual Studio Code](docs/chapters/05-ide-integration/02-vscode.md)
+- [5.3 Visual Studio](docs/chapters/05-ide-integration/03-visual-studio.md)
+- [5.4 JetBrains IDEs](docs/chapters/05-ide-integration/04-jetbrains.md)
+- [5.5 Other editors](docs/chapters/05-ide-integration/05-other-editors.md)
+- [5.6 AI-assisted workflows](docs/chapters/05-ide-integration/06-ai-assisted-workflows.md)
+- [5.7 Editor and merge tool configuration](docs/chapters/05-ide-integration/07-editor-and-mergetool-config.md)
+- [5.8 Practical exercises](docs/chapters/05-ide-integration/08-exercises.md)
+
 ## Project Resources
 
 - [Contribution guide](CONTRIBUTING.md)
