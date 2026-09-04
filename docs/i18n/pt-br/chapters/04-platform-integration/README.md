@@ -8,3 +8,13 @@ O Git se torna um sistema de entrega para equipes quando um repositório é cone
 - [Azure Repos](04-azure-repos.md)
 - [Bitbucket e Atlassian](05-bitbucket-atlassian.md)
 - [Checklist de integração segura](06-secure-checklist.md)
+
+## Referências
+
+Cada lição lista a documentação oficial em que se baseia, verificada ao vivo em vez de recordada de memória — este é o capítulo com maior chance de ficar desatualizado, já que cada plataforma muda seus padrões de autenticação com o tempo. As fontes principais são:
+
+- [GitHub Docs](https://docs.github.com/pt)
+- [GitLab Docs](https://docs.gitlab.com/)
+- [Microsoft Learn — Azure Repos](https://learn.microsoft.com/pt-br/azure/devops/repos/)
+- [Documentação do Bitbucket Cloud (Atlassian Support)](https://support.atlassian.com/bitbucket-cloud/)
+- [Manual de referência do Git](https://git-scm.com/docs)

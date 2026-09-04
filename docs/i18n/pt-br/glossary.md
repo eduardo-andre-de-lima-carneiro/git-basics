@@ -12,3 +12,15 @@
 - **Ferramenta de merge:** Um programa externo definido em `merge.tool` e chamado por `git mergetool` para resolver conflitos.
 - **Ferramenta de diff:** Um programa externo definido em `diff.tool` e chamado por `git difftool` para visualizar mudanças.
 - **Credential helper:** Um componente que guarda e fornece as credenciais do Git para que não sejam redigitadas a cada push.
+- **Controle de versão distribuído (DVCS):** Um modelo em que cada clone guarda o histórico completo do projeto, permitindo que a maioria das operações funcione offline; Git e Mercurial são ferramentas DVCS.
+- **Controle de versão centralizado (CVCS):** Um modelo em que o histórico vive em um único servidor central e os clientes obtêm apenas uma cópia de trabalho, como no Subversion.
+- **Branch de rastreamento remoto (remote-tracking branch):** Uma referência local somente leitura (ex.: `origin/main`) que espelha uma branch em um remoto na última vez que houve um `fetch`.
+- **Branch de rastreamento upstream (upstream tracking branch):** A branch remota que uma branch local está configurada para buscar e mesclar/rebasear por padrão, definida com `git push -u` ou `git branch -u`.
+- **Fast-forward:** Mover o ponteiro de uma branch para frente sem criar um commit de merge, possível apenas quando a ponta atual é ancestral do commit de destino.
+- **Reflog:** Um registro local de onde as pontas de branches e o `HEAD` já apontaram, usado para recuperar commits após um `reset`.
+- **Escopo de configuração:** A camada (`--system`, `--global`, `--local` ou `--worktree`) em que uma configuração do Git é gravada, o que determina a precedência quando a mesma chave é definida em mais de um lugar.
+- **Diretório `.git`:** O subdiretório oculto que guarda os dados reais do repositório (objects, refs, `HEAD`, config); os arquivos do checkout são apenas um retrato do seu conteúdo.
+- **Personal access token (PAT):** Uma credencial revogável e com escopo definido, usada no lugar de uma senha em operações de Git e de API; chamada de API token no Bitbucket Cloud.
+- **Chave SSH:** Um par de chaves assimétricas usado para autenticar operações do Git, e opcionalmente assinar commits, sem redigitar senha ou token repetidamente.
+- **Autenticação de dois fatores (2FA):** Uma segunda etapa de verificação (um app autenticador, uma chave de hardware ou um código) exigida junto com a senha para entrar na conta.
+- **Commit assinado:** Um commit assinado criptograficamente (GPG, SSH ou X.509/S/MIME) para que a plataforma de hospedagem exiba um selo de "verificado" comprovando a autoria.
