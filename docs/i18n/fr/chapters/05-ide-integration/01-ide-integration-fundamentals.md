@@ -17,11 +17,18 @@ Passez à la ligne de commande lorsque vous avez besoin d'un contrôle précis o
 
 ## Mise en place commune
 
-- Configurez l'identité une seule fois avec `git config --global user.name` et `user.email` (voir [2.2 Configurer l'identité et les valeurs par défaut](../02-installation-configuration/02-configure.md)).
-- Laissez un credential helper ou le trousseau du système stocker les jetons pour que l'éditeur ne les demande pas à chaque push.
-- Décidez si les dossiers propres à l'éditeur, comme `.vscode/` ou `.idea/`, doivent figurer dans le dépôt ; sinon, ajoutez-les au `.gitignore`.
-- Gardez la signature (SSH ou GPG) configurée dans Git lui-même pour que les commits faits depuis l'éditeur soient également signés.
+- Configurez l'identité une seule fois avec [`git config`](https://git-scm.com/docs/git-config) `--global user.name` et `user.email` (voir [2.2 Configurer l'identité et les valeurs par défaut](../02-installation-configuration/02-configure.md)).
+- Laissez un [credential helper](https://git-scm.com/docs/gitcredentials) ou le trousseau du système stocker les jetons pour que l'éditeur ne les demande pas à chaque push.
+- Décidez si les dossiers propres à l'éditeur, comme `.vscode/` ou `.idea/`, doivent figurer dans le dépôt ; sinon, ajoutez-les au [`.gitignore`](https://git-scm.com/docs/gitignore).
+- Gardez la [signature des commits](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (SSH ou GPG) configurée dans Git lui-même pour que les commits faits depuis l'éditeur soient également signés.
 
 ## Exercice
 
 Ouvrez un dépôt d'exercice existant dans votre éditeur. Modifiez une ligne dans un fichier, puis vérifiez que le panneau de contrôle de version de l'éditeur et `git status` dans un terminal signalent le même changement.
+
+## Références
+
+- Manuel de Git — [git-config](https://git-scm.com/docs/git-config)
+- Manuel de Git — [gitcredentials](https://git-scm.com/docs/gitcredentials)
+- Manuel de Git — [gitignore](https://git-scm.com/docs/gitignore)
+- Pro Git (2e éd.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)

@@ -10,3 +10,9 @@ Réalisez-les dans un dépôt temporaire, en utilisant votre éditeur pour les a
 6. Faites un commit signé depuis l'éditeur et vérifiez-le avec `git log --show-signature`.
 
 Pour chaque exercice, notez l'action réalisée dans l'éditeur et la sortie de commande qui a confirmé le résultat.
+
+## Références
+
+- Manuel de Git — [git-mergetool](https://git-scm.com/docs/git-mergetool)
+- Manuel de Git — [git-difftool](https://git-scm.com/docs/git-difftool)
+- Pro Git (2e éd.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)

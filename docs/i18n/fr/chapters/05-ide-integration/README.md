@@ -10,3 +10,12 @@ L'essentiel du travail quotidien avec Git se fait à l'intérieur d'un éditeur 
 - [Flux assistés par IA](06-ai-assisted-workflows.md)
 - [Configuration de l'éditeur et de l'outil de fusion](07-editor-and-mergetool-config.md)
 - [Exercices pratiques](08-exercises.md)
+
+## Références
+
+Chaque leçon indique la documentation officielle sur laquelle elle s'appuie. Les sources principales de ce chapitre sont :
+
+- [Pro Git (2e édition)](https://git-scm.com/book/en/v2) et le [manuel de référence de Git](https://git-scm.com/docs)
+- [Visual Studio Code — documentation du contrôle de version](https://code.visualstudio.com/docs/sourcecontrol/overview)
+- [Microsoft Learn — Git dans Visual Studio](https://learn.microsoft.com/fr-fr/visualstudio/version-control/git-with-visual-studio)
+- [JetBrains — intégration Git dans IntelliJ IDEA](https://www.jetbrains.com/help/idea/using-git-integration.html)

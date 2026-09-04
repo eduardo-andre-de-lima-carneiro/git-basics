@@ -1,6 +1,6 @@
 # 5.7 Configuration de l'éditeur et de l'outil de fusion
 
-Git utilise trois réglages pour confier du travail à un programme externe : `core.editor` pour le texte, `merge.tool` pour la résolution des conflits et `diff.tool` pour visualiser les changements.
+Git utilise trois réglages pour confier du travail à un programme externe : [`core.editor`](https://git-scm.com/docs/git-config) pour le texte, [`merge.tool`](https://git-scm.com/docs/git-mergetool) pour la résolution des conflits et [`diff.tool`](https://git-scm.com/docs/git-difftool) pour visualiser les changements.
 
 ## Définir l'éditeur de commit
 
@@ -40,3 +40,10 @@ Visual Studio et les IDE JetBrains s'enregistrent aussi comme outils de fusion e
 ## Exercice
 
 Configurez `merge.tool`, créez un conflit dans un dépôt d'exercice en modifiant la même ligne sur deux branches, exécutez `git mergetool`, résolvez-le dans l'éditeur et terminez avec `git commit`.
+
+## Références
+
+- Manuel de Git — [git-config](https://git-scm.com/docs/git-config) (`core.editor`, `merge.tool`, `diff.tool`)
+- Manuel de Git — [git-mergetool](https://git-scm.com/docs/git-mergetool)
+- Manuel de Git — [git-difftool](https://git-scm.com/docs/git-difftool)
+- Pro Git (2e éd.) — [Git Configuration: External Merge and Diff Tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)

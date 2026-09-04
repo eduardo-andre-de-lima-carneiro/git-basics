@@ -1,6 +1,6 @@
 # 5.2 Visual Studio Code
 
-Visual Studio Code fournit la prise en charge de Git, activée dès que Git est installé et présent dans le `PATH`.
+Visual Studio Code fournit la [prise en charge du contrôle de version Git](https://code.visualstudio.com/docs/sourcecontrol/overview), activée dès que Git est installé et présent dans le `PATH`.
 
 ## Flux principal
 
@@ -20,11 +20,18 @@ L'option `--wait` fait attendre Git jusqu'à la fermeture de l'onglet, ce qui es
 
 ## Extensions utiles
 
-- **GitLens** ajoute le blame ligne par ligne, un graphe des commits et la navigation dans l'historique.
-- **GitHub Pull Requests and Issues** permet de créer, relire et fusionner des pull requests sans quitter l'éditeur.
+- [**GitLens**](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) ajoute le blame ligne par ligne, un graphe des commits et la navigation dans l'historique.
+- [**GitHub Pull Requests and Issues**](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) permet de créer, relire et fusionner des pull requests sans quitter l'éditeur.
 
 N'installez des extensions que d'éditeurs de confiance et vérifiez les permissions qu'elles demandent.
 
 ## Exercice
 
 Définissez `core.editor` sur `code --wait`, puis exécutez `git commit` sans `-m` dans un dépôt d'exercice. Rédigez le message dans l'onglet VS Code, enregistrez et fermez-le ; vérifiez le commit avec `git log --oneline`.
+
+## Références
+
+- Visual Studio Code — [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+- Visual Studio Marketplace — [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- Visual Studio Marketplace — [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- Manuel de Git — [git-config](https://git-scm.com/docs/git-config)
