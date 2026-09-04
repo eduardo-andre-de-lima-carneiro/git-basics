@@ -1,6 +1,6 @@
 # 5.3 Visual Studio
 
-Visual Studio (the full Windows IDE, not VS Code) has built-in Git support through the **Git** menu and two docked windows.
+Visual Studio (the full Windows IDE, not VS Code) has [built-in Git support](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio) through the **Git** menu and two docked windows.
 
 ## Core workflow
 
@@ -12,7 +12,7 @@ Visual Studio (the full Windows IDE, not VS Code) has built-in Git support throu
 
 ## Authentication
 
-Visual Studio uses **Git Credential Manager**, installed with it, to store platform tokens in the Windows Credential Store. Sign in through **Git > Settings** or the account picker; avoid putting credentials in remote URLs.
+Visual Studio uses [**Git Credential Manager**](https://github.com/git-ecosystem/git-credential-manager), installed with it, to store platform tokens in the Windows Credential Store. Sign in through **Git > Settings** or the account picker; avoid putting credentials in remote URLs.
 
 ## Note on Team Explorer
 
@@ -21,3 +21,9 @@ Older versions routed Git through **Team Explorer**. Current versions use the de
 ## Exercise
 
 In a practice repository opened in Visual Studio, make a change, stage it in **Git Changes**, commit, and then open the **Git Repository** window to confirm the new commit appears in the graph.
+
+## References
+
+- Microsoft Learn — [About Git in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio)
+- Microsoft Learn — [Resolve merge conflicts in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/version-control/git-resolve-conflicts)
+- git-ecosystem — [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager)

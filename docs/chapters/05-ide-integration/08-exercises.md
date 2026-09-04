@@ -10,3 +10,9 @@ Complete these in a temporary repository, using your editor for the Git actions 
 6. Make a signed commit from the editor and verify it with `git log --show-signature`.
 
 For each exercise, record the editor action taken and the command output that confirmed the result.
+
+## References
+
+- Git reference — [git-mergetool](https://git-scm.com/docs/git-mergetool)
+- Git reference — [git-difftool](https://git-scm.com/docs/git-difftool)
+- Pro Git (2nd ed.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)

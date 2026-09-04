@@ -17,11 +17,18 @@ Reach for the command line when you need exact control or an uncommon operation:
 
 ## Shared setup
 
-- Configure identity once with `git config --global user.name` and `user.email` (see [2.2 Configure identity and defaults](../02-installation-configuration/02-configure.md)).
-- Let a credential helper or the OS keychain store tokens so the editor does not prompt on every push.
-- Decide whether editor-specific folders such as `.vscode/` or `.idea/` belong in the repository; if not, add them to `.gitignore`.
-- Keep signing (SSH or GPG) configured in Git itself so commits made from the editor are signed too.
+- Configure identity once with [`git config`](https://git-scm.com/docs/git-config) `--global user.name` and `user.email` (see [2.2 Configure identity and defaults](../02-installation-configuration/02-configure.md)).
+- Let a [credential helper](https://git-scm.com/docs/gitcredentials) or the OS keychain store tokens so the editor does not prompt on every push.
+- Decide whether editor-specific folders such as `.vscode/` or `.idea/` belong in the repository; if not, add them to [`.gitignore`](https://git-scm.com/docs/gitignore).
+- Keep [commit signing](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (SSH or GPG) configured in Git itself so commits made from the editor are signed too.
 
 ## Exercise
 
 Open an existing practice repository in your editor. Change one line in a file, then confirm the editor's source control panel and `git status` in a terminal report the same change.
+
+## References
+
+- Git reference — [git-config](https://git-scm.com/docs/git-config)
+- Git reference — [gitcredentials](https://git-scm.com/docs/gitcredentials)
+- Git reference — [gitignore](https://git-scm.com/docs/gitignore)
+- Pro Git (2nd ed.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)

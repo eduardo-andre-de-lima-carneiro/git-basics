@@ -1,6 +1,6 @@
 # 5.7 Editor and Merge Tool Configuration
 
-Git uses three settings to hand work to an external program: `core.editor` for text, `merge.tool` for conflict resolution, and `diff.tool` for viewing changes.
+Git uses three settings to hand work to an external program: [`core.editor`](https://git-scm.com/docs/git-config) for text, [`merge.tool`](https://git-scm.com/docs/git-mergetool) for conflict resolution, and [`diff.tool`](https://git-scm.com/docs/git-difftool) for viewing changes.
 
 ## Set the commit editor
 
@@ -40,3 +40,10 @@ Visual Studio and JetBrains IDEs also register themselves as merge and diff tool
 ## Exercise
 
 Configure `merge.tool`, create a conflict in a practice repository by editing the same line on two branches, run `git mergetool`, resolve it in the editor, and finish with `git commit`.
+
+## References
+
+- Git reference — [git-config](https://git-scm.com/docs/git-config) (`core.editor`, `merge.tool`, `diff.tool`)
+- Git reference — [git-mergetool](https://git-scm.com/docs/git-mergetool)
+- Git reference — [git-difftool](https://git-scm.com/docs/git-difftool)
+- Pro Git (2nd ed.) — [Git Configuration: External Merge and Diff Tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)

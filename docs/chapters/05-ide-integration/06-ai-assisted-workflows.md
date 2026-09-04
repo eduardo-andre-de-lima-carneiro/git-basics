@@ -4,8 +4,8 @@ This section is optional. Many editors now offer AI assistants that can draft co
 
 ## Where it shows up
 
-- **Visual Studio Code** and **Visual Studio**: GitHub Copilot can generate a commit message from staged changes and draft pull request text.
-- **JetBrains IDEs**: the AI Assistant offers "Generate Commit Message" in the Commit tool window.
+- **Visual Studio Code** and **Visual Studio**: [GitHub Copilot can generate a commit message](https://docs.github.com/en/copilot/responsible-use/copilot-commit-message-generation) from staged changes and draft pull request text. VS Code also exposes this from the [Source Control view](https://code.visualstudio.com/docs/sourcecontrol/overview).
+- **JetBrains IDEs**: the [AI Assistant](https://www.jetbrains.com/help/idea/ai-assistant.html) offers "Generate Commit Message" in the Commit tool window.
 - Standalone clients such as GitKraken expose similar commit-message helpers.
 
 ## How to use it safely
@@ -18,3 +18,9 @@ This section is optional. Many editors now offer AI assistants that can draft co
 ## Exercise
 
 Stage a small change in a practice repository and ask your editor's assistant for a commit message. Rewrite it in your own words to explain the reason for the change, then commit.
+
+## References
+
+- GitHub Docs — [Commit message generation (responsible use of Copilot)](https://docs.github.com/en/copilot/responsible-use/copilot-commit-message-generation)
+- Visual Studio Code — [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+- JetBrains — [AI Assistant](https://www.jetbrains.com/help/idea/ai-assistant.html)
