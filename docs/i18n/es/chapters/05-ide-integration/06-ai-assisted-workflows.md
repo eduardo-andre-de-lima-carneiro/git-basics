@@ -4,8 +4,8 @@ Esta sección es opcional. Muchos editores ahora ofrecen asistentes de IA que pu
 
 ## Dónde aparece
 
-- **Visual Studio Code** y **Visual Studio**: GitHub Copilot puede generar un mensaje de commit a partir de los cambios preparados y redactar el texto del pull request.
-- **IDE de JetBrains**: el AI Assistant ofrece "Generate Commit Message" en la ventana **Commit**.
+- **Visual Studio Code** y **Visual Studio**: [GitHub Copilot puede generar un mensaje de commit](https://docs.github.com/es/copilot/responsible-use/copilot-commit-message-generation) a partir de los cambios preparados y redactar el texto del pull request. VS Code también expone esto desde la [vista Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview).
+- **IDE de JetBrains**: el [AI Assistant](https://www.jetbrains.com/help/idea/ai-assistant.html) ofrece "Generate Commit Message" en la ventana **Commit**.
 - Clientes independientes como GitKraken exponen ayudas similares para los mensajes de commit.
 
 ## Cómo usarlo de forma segura
@@ -18,3 +18,9 @@ Esta sección es opcional. Muchos editores ahora ofrecen asistentes de IA que pu
 ## Ejercicio
 
 Prepara un cambio pequeño en un repositorio de práctica y pide un mensaje de commit al asistente de tu editor. Reescríbelo con tus propias palabras para explicar el motivo del cambio y luego confirma el commit.
+
+## Referencias
+
+- GitHub Docs — [Generación de mensajes de commit (uso responsable de Copilot)](https://docs.github.com/es/copilot/responsible-use/copilot-commit-message-generation)
+- Visual Studio Code — [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview)
+- JetBrains — [AI Assistant](https://www.jetbrains.com/help/idea/ai-assistant.html)

@@ -1,6 +1,6 @@
 # 5.3 Visual Studio
 
-Visual Studio (el IDE completo de Windows, no VS Code) tiene compatibilidad con Git integrada a través del menú **Git** y dos ventanas acopladas.
+Visual Studio (el IDE completo de Windows, no VS Code) tiene [compatibilidad con Git integrada](https://learn.microsoft.com/es-es/visualstudio/version-control/git-with-visual-studio) a través del menú **Git** y dos ventanas acopladas.
 
 ## Flujo principal
 
@@ -12,7 +12,7 @@ Visual Studio (el IDE completo de Windows, no VS Code) tiene compatibilidad con 
 
 ## Autenticación
 
-Visual Studio usa **Git Credential Manager**, instalado junto con él, para guardar los tokens de las plataformas en el Windows Credential Store. Inicia sesión en **Git > Settings** o en el selector de cuenta; evita poner credenciales en las URL de los remotos.
+Visual Studio usa [**Git Credential Manager**](https://github.com/git-ecosystem/git-credential-manager), instalado junto con él, para guardar los tokens de las plataformas en el Windows Credential Store. Inicia sesión en **Git > Settings** o en el selector de cuenta; evita poner credenciales en las URL de los remotos.
 
 ## Nota sobre Team Explorer
 
@@ -21,3 +21,9 @@ Las versiones antiguas encaminaban Git por **Team Explorer**. Las versiones actu
 ## Ejercicio
 
 En un repositorio de práctica abierto en Visual Studio, haz un cambio, prepáralo en **Git Changes**, confirma el commit y abre la ventana **Git Repository** para verificar que el nuevo commit aparece en el grafo.
+
+## Referencias
+
+- Microsoft Learn — [Acerca de Git en Visual Studio](https://learn.microsoft.com/es-es/visualstudio/version-control/git-with-visual-studio)
+- Microsoft Learn — [Resolver conflictos de combinación en Visual Studio](https://learn.microsoft.com/es-es/visualstudio/version-control/git-resolve-conflicts)
+- git-ecosystem — [Git Credential Manager](https://github.com/git-ecosystem/git-credential-manager)

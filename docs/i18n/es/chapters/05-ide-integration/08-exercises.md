@@ -10,3 +10,9 @@ Realízalos en un repositorio temporal, usando tu editor para las acciones de Gi
 6. Haz un commit firmado desde el editor y verifícalo con `git log --show-signature`.
 
 Para cada ejercicio, anota la acción realizada en el editor y la salida del comando que confirmó el resultado.
+
+## Referencias
+
+- Manual de Git — [git-mergetool](https://git-scm.com/docs/git-mergetool)
+- Manual de Git — [git-difftool](https://git-scm.com/docs/git-difftool)
+- Pro Git (2.ª ed.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)

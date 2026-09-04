@@ -17,11 +17,18 @@ Recurre a la línea de comandos cuando necesites control exacto o una operación
 
 ## Configuración compartida
 
-- Configura la identidad una vez con `git config --global user.name` y `user.email` (ver [2.2 Configurar la identidad y los valores predeterminados](../02-installation-configuration/02-configure.md)).
-- Deja que un credential helper o el llavero del sistema guarde los tokens para que el editor no los pida en cada push.
-- Decide si las carpetas propias del editor, como `.vscode/` o `.idea/`, deben estar en el repositorio; si no, agrégalas al `.gitignore`.
-- Mantén la firma (SSH o GPG) configurada en el propio Git para que los commits hechos desde el editor también se firmen.
+- Configura la identidad una vez con [`git config`](https://git-scm.com/docs/git-config) `--global user.name` y `user.email` (ver [2.2 Configurar la identidad y los valores predeterminados](../02-installation-configuration/02-configure.md)).
+- Deja que un [credential helper](https://git-scm.com/docs/gitcredentials) o el llavero del sistema guarde los tokens para que el editor no los pida en cada push.
+- Decide si las carpetas propias del editor, como `.vscode/` o `.idea/`, deben estar en el repositorio; si no, agrégalas al [`.gitignore`](https://git-scm.com/docs/gitignore).
+- Mantén la [firma de commits](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (SSH o GPG) configurada en el propio Git para que los commits hechos desde el editor también se firmen.
 
 ## Ejercicio
 
 Abre un repositorio de práctica existente en tu editor. Cambia una línea de un archivo y comprueba que el panel de control de versiones del editor y `git status` en una terminal informan del mismo cambio.
+
+## Referencias
+
+- Manual de Git — [git-config](https://git-scm.com/docs/git-config)
+- Manual de Git — [gitcredentials](https://git-scm.com/docs/gitcredentials)
+- Manual de Git — [gitignore](https://git-scm.com/docs/gitignore)
+- Pro Git (2.ª ed.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
