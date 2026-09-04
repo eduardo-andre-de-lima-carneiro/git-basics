@@ -12,3 +12,15 @@
 - **Merge tool:** An external program set with `merge.tool` and launched by `git mergetool` to resolve conflicts.
 - **Diff tool:** An external program set with `diff.tool` and launched by `git difftool` to view changes.
 - **Credential helper:** A component that stores and supplies Git credentials so they are not retyped on every push.
+- **Distributed version control (DVCS):** A model where every clone holds the full project history, so most operations work offline; Git and Mercurial are DVCS tools.
+- **Centralized version control (CVCS):** A model where history lives on one central server and clients check out only a working copy, as in Subversion.
+- **Remote-tracking branch:** A local read-only ref (e.g. `origin/main`) that mirrors a branch on a remote as of the last `fetch`.
+- **Upstream tracking branch:** The remote branch a local branch is configured to fetch from and merge/rebase with by default, set via `git push -u` or `git branch -u`.
+- **Fast-forward:** Moving a branch pointer forward with no merge commit, possible only when the current tip is an ancestor of the target commit.
+- **Reflog:** A local log of where branch tips and `HEAD` have pointed, usable to recover commits after a `reset`.
+- **Configuration scope:** The layer (`--system`, `--global`, `--local`, or `--worktree`) a Git setting is written to, which determines precedence when the same key is set in more than one place.
+- **`.git` directory:** The hidden subdirectory holding a repository's actual data (objects, refs, `HEAD`, config); the checked-out files are just a snapshot of its content.
+- **Personal access token (PAT):** A revocable, scoped credential used instead of a password for Git and API operations; called an API token on Bitbucket Cloud.
+- **SSH key:** An asymmetric key pair used to authenticate Git operations, and optionally sign commits, without repeatedly entering a password or token.
+- **Two-factor authentication (2FA):** A second verification step (an authenticator app, hardware key, or code) required alongside a password to sign in.
+- **Signed commit:** A commit cryptographically signed (GPG, SSH, or X.509/S/MIME) so a hosting platform can show a "verified" badge proving authorship.
