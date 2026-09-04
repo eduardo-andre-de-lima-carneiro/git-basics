@@ -1,11 +1,11 @@
 # 5.4 IDEs da JetBrains
 
-IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, Rider, GoLand e Android Studio compartilham a mesma integração com Git no menu **Git** (ou **VCS**).
+IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, Rider, GoLand e Android Studio compartilham a mesma [integração com Git](https://www.jetbrains.com/help/idea/using-git-integration.html) no menu **Git** (ou **VCS**).
 
 ## Fluxo principal
 
 - **Git > Clone** cria o repositório local; **VCS > Enable Version Control Integration** inicia um em um projeto existente.
-- A janela **Commit** lista as mudanças, agrupa-as em changelists e prepara arquivos ou hunks. Uma caixa de mensagem e os botões **Commit** / **Commit and Push** ficam abaixo dela.
+- A [janela **Commit**](https://www.jetbrains.com/help/idea/commit-and-push-changes.html) lista as mudanças, agrupa-as em changelists e prepara arquivos ou hunks. Uma caixa de mensagem e os botões **Commit** / **Commit and Push** ficam abaixo dela.
 - A aba **Log** da janela **Git** mostra o grafo completo de branches, com filtros por branch, usuário e caminho.
 - O widget de branch na barra de status troca, cria e compara branches.
 - **Update Project** executa fetch mais merge ou rebase, conforme a sua configuração.
@@ -22,3 +22,10 @@ Clique com o botão direito em um commit no **Log** e escolha **Interactively Re
 ## Exercício
 
 Em um repositório de prática, faça duas edições não relacionadas, separe-as em dois changelists na janela **Commit** e confirme-as separadamente. Verifique os dois commits na aba **Log**.
+
+## Referências
+
+- JetBrains — [Git integration in IntelliJ IDEA](https://www.jetbrains.com/help/idea/using-git-integration.html)
+- JetBrains — [Commit and push changes](https://www.jetbrains.com/help/idea/commit-and-push-changes.html)
+- JetBrains — [Edit Git project history (rebase interativo)](https://www.jetbrains.com/help/idea/edit-project-history.html)
+- JetBrains — [Resolve Git conflicts](https://www.jetbrains.com/help/idea/resolve-conflicts.html)

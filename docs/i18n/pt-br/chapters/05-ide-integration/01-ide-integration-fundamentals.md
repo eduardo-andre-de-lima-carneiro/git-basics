@@ -17,11 +17,18 @@ Recorra à linha de comando quando precisar de controle exato ou de uma operaç�
 
 ## Configuração compartilhada
 
-- Configure a identidade uma vez com `git config --global user.name` e `user.email` (veja [2.2 Configurar identidade e padrões](../02-installation-configuration/02-configure.md)).
-- Deixe um credential helper ou o keychain do sistema guardar os tokens para que o editor não pergunte a cada push.
-- Decida se pastas específicas do editor, como `.vscode/` ou `.idea/`, devem ficar no repositório; se não, adicione-as ao `.gitignore`.
-- Mantenha a assinatura (SSH ou GPG) configurada no próprio Git para que os commits feitos pelo editor também sejam assinados.
+- Configure a identidade uma vez com [`git config`](https://git-scm.com/docs/git-config) `--global user.name` e `user.email` (veja [2.2 Configurar identidade e padrões](../02-installation-configuration/02-configure.md)).
+- Deixe um [credential helper](https://git-scm.com/docs/gitcredentials) ou o keychain do sistema guardar os tokens para que o editor não pergunte a cada push.
+- Decida se pastas específicas do editor, como `.vscode/` ou `.idea/`, devem ficar no repositório; se não, adicione-as ao [`.gitignore`](https://git-scm.com/docs/gitignore).
+- Mantenha a [assinatura de commits](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (SSH ou GPG) configurada no próprio Git para que os commits feitos pelo editor também sejam assinados.
 
 ## Exercício
 
 Abra um repositório de prática existente no seu editor. Altere uma linha em um arquivo e confirme que o painel de controle de versão do editor e o `git status` em um terminal relatam a mesma mudança.
+
+## Referências
+
+- Manual do Git — [git-config](https://git-scm.com/docs/git-config)
+- Manual do Git — [gitcredentials](https://git-scm.com/docs/gitcredentials)
+- Manual do Git — [gitignore](https://git-scm.com/docs/gitignore)
+- Pro Git (2ª ed.) — [Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)

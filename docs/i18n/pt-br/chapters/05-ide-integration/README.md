@@ -10,3 +10,12 @@ A maior parte do trabalho diário com Git acontece dentro de um editor de códig
 - [Fluxos assistidos por IA](06-ai-assisted-workflows.md)
 - [Configuração de editor e ferramenta de merge](07-editor-and-mergetool-config.md)
 - [Exercícios práticos](08-exercises.md)
+
+## Referências
+
+Cada lição lista a documentação oficial em que se baseia. As fontes principais deste capítulo são:
+
+- [Pro Git (2ª edição)](https://git-scm.com/book/en/v2) e o [manual de referência do Git](https://git-scm.com/docs)
+- [Visual Studio Code — documentação de controle de versão](https://code.visualstudio.com/docs/sourcecontrol/overview)
+- [Microsoft Learn — Git no Visual Studio](https://learn.microsoft.com/pt-br/visualstudio/version-control/git-with-visual-studio)
+- [JetBrains — integração com Git no IntelliJ IDEA](https://www.jetbrains.com/help/idea/using-git-integration.html)

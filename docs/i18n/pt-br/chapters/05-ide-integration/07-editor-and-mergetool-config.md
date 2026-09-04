@@ -1,6 +1,6 @@
 # 5.7 Configuração de editor e ferramenta de merge
 
-O Git usa três configurações para entregar trabalho a um programa externo: `core.editor` para texto, `merge.tool` para resolução de conflitos e `diff.tool` para visualizar mudanças.
+O Git usa três configurações para entregar trabalho a um programa externo: [`core.editor`](https://git-scm.com/docs/git-config) para texto, [`merge.tool`](https://git-scm.com/docs/git-mergetool) para resolução de conflitos e [`diff.tool`](https://git-scm.com/docs/git-difftool) para visualizar mudanças.
 
 ## Definir o editor de commit
 
@@ -40,3 +40,10 @@ O Visual Studio e as IDEs da JetBrains também se registram como ferramentas de 
 ## Exercício
 
 Configure `merge.tool`, crie um conflito em um repositório de prática editando a mesma linha em duas branches, execute `git mergetool`, resolva-o no editor e finalize com `git commit`.
+
+## Referências
+
+- Manual do Git — [git-config](https://git-scm.com/docs/git-config) (`core.editor`, `merge.tool`, `diff.tool`)
+- Manual do Git — [git-mergetool](https://git-scm.com/docs/git-mergetool)
+- Manual do Git — [git-difftool](https://git-scm.com/docs/git-difftool)
+- Pro Git (2ª ed.) — [Git Configuration: External Merge and Diff Tools](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
